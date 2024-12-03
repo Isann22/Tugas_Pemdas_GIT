@@ -53,3 +53,5 @@ for i, j in data_panen.items():
         print(f"{i} perlu perhatian khusus")
     else:
         print(f"{i} dalam kondisi baik")
+
+# coba
