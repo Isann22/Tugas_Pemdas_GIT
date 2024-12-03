@@ -1,1 +1,2 @@
-ini branch baru
+branch baru
+branch master
