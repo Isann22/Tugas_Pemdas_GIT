@@ -30,3 +30,14 @@ for i, j in data_panen.items():
 
 hasil_jagung2 = data_panen["lokasi2"]["hasil_panen"]["jagung"]
 print(f"hasil panen jagung lokasi2: {hasil_jagung2}")
+
+nama_lokasi3 = data_panen["lokasi3"]["nama_lokasi"]
+print(f"nama lokasi 3 : {nama_lokasi3}")
+
+padi = []
+kedelai = []
+for i, j in data_panen.items():
+    padi.append(j["hasil_panen"]["padi"])
+    kedelai.append(j["hasil_panen"]["kedelai"])
+print(f"data hasil panen padi: {padi}")
+print(f"data hasil panen kedelai: {kedelai}")
