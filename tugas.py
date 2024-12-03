@@ -20,3 +20,13 @@ data_panen = {
         "hasil_panen": {"padi": 1400, "jagung": 950, "kedelai": 480},
     },
 }
+
+for i, j in data_panen.items():
+    print(f"{i}")
+    print(f"nama lokasi : {j['nama_lokasi']}")
+    print(f"hasil panen padi: {j['hasil_panen']['padi']}")
+    print(f"hasil panen jagung: {j['hasil_panen']['jagung']}")
+    print(f"hasil panen kedelai: {j['hasil_panen']['kedelai']}")
+
+hasil_jagung2 = data_panen["lokasi2"]["hasil_panen"]["jagung"]
+print(f"hasil panen jagung lokasi2: {hasil_jagung2}")
