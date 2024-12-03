@@ -41,3 +41,15 @@ for i, j in data_panen.items():
     kedelai.append(j["hasil_panen"]["kedelai"])
 print(f"data hasil panen padi: {padi}")
 print(f"data hasil panen kedelai: {kedelai}")
+
+for i in range(5):
+    print(f"hasil panen padi lokasi {i+1} :{padi[i]}")
+    print(f"hasil panen kedelai lokasi {i+1}: {kedelai[i]}")
+
+for i, j in data_panen.items():
+    padi = j["hasil_panen"]["padi"]
+    jagung = j["hasil_panen"]["jagung"]
+    if padi > 1300 or jagung > 800:
+        print(f"{i} perlu perhatian khusus")
+    else:
+        print(f"{i} dalam kondisi baik")
